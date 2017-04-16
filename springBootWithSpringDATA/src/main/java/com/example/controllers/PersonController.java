@@ -13,8 +13,8 @@ import com.example.model.Person;
 import com.example.services.PersonService;
 
 @RestController
-@RequestMapping("/hello")
-public class HelloController {
+@RequestMapping("/person")
+public class PersonController {
 
 	private PersonService personService;
 
